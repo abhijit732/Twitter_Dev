@@ -7,8 +7,6 @@ import { passportAuth } from './config/jwt-middleware.js';
 
 import apiRoutes from './routes/index.js';
 
-import {UserRepository, TweetRepository} from './repository/index.js';
-import LikeService from './services/like-service.js';
 
 const app=express();
 app.use(bodyParser.json());
